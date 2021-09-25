@@ -1,0 +1,38 @@
+.header {
+  padding: 1.5em;
+  background-color: #2680c0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.icon {
+  position: relative;
+  color: #fff;
+}
+
+.cart-count {
+  position: absolute;
+  right: -10px;
+  top: -15px;
+  background-color: #85c6f4;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 29px;
+}
