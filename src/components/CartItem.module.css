@@ -1,0 +1,75 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.content {
+  display: flex;
+}
+
+img {
+  width: 80px;
+  max-width: 100%;
+}
+
+.image-container {
+  width: 80px;
+}
+
+h4,
+p {
+  margin: 0;
+}
+
+.name {
+  margin-bottom: 0.5em;
+  color: #0e2a42;
+}
+
+.price {
+  margin-bottom: 0.7em;
+  color: #617d98;
+  font-weight: 600;
+}
+
+.remove-btn {
+  font-family: inherit;
+  font-size: 1rem;
+  color: #4e7692;
+  border: 0;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 0;
+}
+
+.remove-btn:hover {
+  color: #75baeb;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  color: #4e7692;
+  transition: 0.2s ease-in-out;
+}
+
+.arrow:hover {
+  color: #75baeb;
+}
+
+.amount {
+  margin: 0.2em 0;
+  font-size: 1.2rem;
+  color: #0e2a42;
+}

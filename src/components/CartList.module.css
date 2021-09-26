@@ -1,0 +1,44 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #0e2a42;
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+
+.label,
+.total-price {
+  font-weight: 700;
+  color: #0e2a42;
+  letter-spacing: 3px;
+}
+
+.clear-cart-btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  color: rgb(167, 53, 33);
+  border: 1px solid rgb(167, 53, 33);
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.3s ease-in-out;
+}
+
+.clear-cart-btn:hover,
+.clear-cart-btn:focus {
+  background-color: #e66d6d;
+}
