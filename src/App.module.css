@@ -12,3 +12,11 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+.emptyCart {
+  text-align: center;
+  color: #617d98;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}

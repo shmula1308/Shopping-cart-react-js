@@ -1,12 +1,16 @@
+import { useContext } from "react";
 import classes from "./Header.module.css";
+import CartContext from "../store/cart-context";
 
 const Header = () => {
+  const ctx = useContext(CartContext);
+  const cartCount = ctx.items.reduce((acc, item) => acc + item.amount, 0);
   return (
     <header className={classes.header}>
       <div className={classes.container}>
         <div className={classes.logo}>UseReducer</div>
         <div className={classes.icon}>
-          <span className={classes["cart-count"]}>4</span>
+          <span className={classes["cart-count"]}>{cartCount}</span>
           <svg
             width='35px'
             aria-hidden='true'
